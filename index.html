@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sam Guerrero</title>
+
+  <!-- CSS  -->
+  <link href="./Materialize_files/icon" rel="stylesheet">
+  <link href="./Materialize_files/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="./Materialize_files/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <ul class="right hide-on-med-and-down">
+        <li><a style="color: #14425d;" href="#aboutme">About Me</a></li>
+        <li><a style="color: #14425d;" href="#projects">Projects</a></li>
+        <li><a style="color: #14425d;" href="#contact">Contact</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a style="color: #14425d;" href="https://materializecss.com/templates/parallax-template/preview.html#"
+        data-target="nav-mobile" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div id="myface"></div>
+        <h1 id="myname" class="white-text header center text-lighten-2">Sam Guerrero</h1>
+        <div class="row center">
+          <h5 id="kicker" class="header col s12 light">Software Developer</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="aboutme" style="background-color: #d3d3d3; width: 100%">
+    <div style=" margin: 0 auto; width: 50%;" class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+
+        <div>
+          <div class="icon-block">
+            <h5 style="color:#14425d; font-weight: bolder" class="center">About Me</h5>
+            <p class="medium">
+              I am a developer seeking new opportunities in Web Development, with experience in Full Stack Development
+              programming and Geographic Information Systems (GIS). I am passionate about learning new
+              technologies that allow me to XYZ.
+              After a few years of professional work in GIS, I began teaching myself web development
+              as my work necessitated it before I finally jumped headfirst into a coding bootcamp.
+              I live for the thrill of applying new skills to conjure solutions to the problems
+              I’m trying to solve. I always feel like a wizard when I hit that “a-ha!” moment and
+              everything clicks.
+              When I’m not knees-deep in console log errors, I also enjoy building fun things in VR using.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="showcase" class="showcase">
+    <div style="text-align: center">
+        <i id="backbutton" class="fas fa-arrow-circle-left"></i>
+    </div>
+
+    <div id="scvoiceassistant">
+      <div style="margin: 0 auto;">
+        <h2 class="scprojtitle">Voice Assistant</h2>
+        <div class="scprojtext">
+        <p>
+          The idea behind this app is a virtual assistant that can respond to 
+          commands given verbally. We wanted to imiate the functionality of google voice 
+          commands and Apple's Siri. We have integrated several libraries that gives our 
+          virtual assistant the power to server dyanmic content.
+
+          This project was made with Python as the backend and Django as the framework. It 
+          is hosted on an AWS Ec2 instance of Ubuntu 16 and is run with Nginix. The content 
+          that is returned is the reuslt of several different API that that application 
+          queries with commands from the user.
+        </p>
+        </div>
+        <div class="scposttextsnip">
+            <a class="link" href="https://www.voiceassistant.xyz/">
+              Check out the live example.</a><br />
+            <a class="link" href="https://github.com/samkguerrero/VoiceAssistant">
+              <i class="fab fa-github"> See the Code.</i></a><br /><br />
+        </div>
+
+        <div class="voiceassistanttable">
+          <img src="./img/voiceassistant8.png" alt="Smiley face" />
+            <img src="./img/voiceassistant1.png" alt="Smiley face" />
+            <img src="./img/voiceassistant2.png" alt="Smiley face" />
+            <img src="./img/voiceassistant3.png" alt="Smiley face" />
+            <img src="./img/voiceassistant4.png" alt="Smiley face" />
+            <img src="./img/voiceassistant5.png" alt="Smiley face" />
+            <img src="./img/voiceassistant6.png" alt="Smiley face" />
+            <img src="./img/voiceassistant7.png" alt="Smiley face" />
+        </div>
+      </div>
+    </div>
+
+    <div id="scexplodingninja">
+      <div>
+        <h2 class="scprojtitle" >Exploding Ninja</h2>
+        <div class="scprojtext">
+          <p>
+            This project was made in a group at the conclusion of the MEAN stack for Coding Dojo.
+            The goal of this project is to adapt the popular board game “Exploding Kittens” 
+            into a playable web application. We want players to be able to invite friends and play 
+            with them. We chose to build this application using socket.io to allow for instant interaction between players.
+            The front end is Javascript and the backend is Node and Socket.io. Every interaction with the game board is sent 
+            back to a server and emitted out to every other player.
+          </p>
+          <p>
+            The challange with this project was that the socket listeners and emitters were all on the same file. In hindsight we should have modularized this out.
+            This made using this project with git very difficult since all members of the group were editing the same two files. We learned how important 
+            bieng able to modularize your code out when working in groups.
+          </p>
+        </div>
+        <div class="scposttextsnip">
+          <a class="link" href="http://34.217.31.200/">
+            Check out the live example.</a><br />
+          <a class="link" href="https://github.com/samkguerrero/exploding_ninjas">
+            <i class="fab fa-github"> See the Code.</i></a><br /><br />
+        </div>
+
+        <div class="voiceassistanttable">
+          <img src="./img/explode1.png" alt="Smiley face" />
+          <img src="./img/explode2.png" alt="Smiley face" />
+          <img src="./img/explode3.png" alt="Smiley face" />
+          <img src="./img/explode4.png" alt="Smiley face" />
+          <img src="./img/explode5.png" alt="Smiley face" />
+          <img src="./img/explode6.png" alt="Smiley face" />
+          <img src="./img/explode7.png" alt="Smiley face" />
+          <img src="./img/explode8.png" alt="Smiley face" />
+          <img src="./img/explode9.png" alt="Smiley face" />
+        </div>
+      </div>
+    </div>
+
+    <div id="scleafletflickr">
+      <div>
+        <h2 class="scprojtitle" id="flickrleaflet">Images by Coordinate with Leaflet and Flickr</h2>
+        <div class="scprojtext">
+          <p>
+            This application is what I contributed to as my final project for the University of Washington Professional & 
+            Continuing Education course, <a class="link" href="https://www.pce.uw.edu/courses/programming-for-the-browser">
+            JSCRIPT 200 B Wi 17: Programming For The Browser</a>. Users can click a point on the map and see filtered imagers 
+            related to the coordinates of that clicked location. Using the JavaScript map library 
+            <a class="link" href="http://leafletjs.com/examples/quick-start/"> Leaflet</a> I created a map that returned 
+            coordinated upon clicking a location on the map. I then used the <a class="link" href="https://www.flickr.com/services/api/">
+            Flickr API</a> to load images from their vast library based on the location that the user clicked. I added filter items from the 
+            Flickr API for the user to select in order to return a more specific set of images.
+          </p>
+        </div>
+        <div class="scposttextsnip">
+          <a class="link" href="https://samkguerrero.github.io/picturesbylocation/finalproject.html">
+            Check out the live example.</a><br />
+            <a class="link" href="https://github.com/samkguerrero/picturesbylocation">
+              <i class="fab fa-github"></i> See the Code.</a><br /><br />
+        </div>
+        <div id="iframepushers">
+          <iframe src="https://samkguerrero.github.io/picturesbylocation/finalproject.html" width="100%" height="800px" scrolling="yes" frameBorder="1" id="share-demo-iframe" ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="scdataviz">
+      <div >
+        <h2 class="scprojtitle" id="dataviz">Data Visualization and Tracking</h2>
+        <div class="scprojtext">
+          <p>
+            Below are some of the ways I visualize data that is collected.
+            The survey managers often ask about the progress of the field
+            operation on a district by district basis. I aggregate the
+            data by district, and answer is how many of each case status
+            each district has collected. Survey Managers ask
+            how many of each case status field staff have resolved.
+            This important to visualize because it shows at a
+            glance who has the most completes, or who has the most incomplete.
+            Using <a class="link" href="http://www.chartjs.org/docs/latest/">Chart.js
+            </a> I am able to make graphs and charts dynamically
+            that show the trends in the data more efficiently.
+          </p>
+        </div>
+        <div class="scposttextsnip">
+          <a class="link" href="https://samkguerrero.github.io/data_vis_and_mapping_for_bwc">
+            Check out the live example.</a><br />
+            <a class="link" href="https://github.com/samkguerrero/data_vis_and_mapping_for_bwc">
+              <i class="fab fa-github"></i> See the Code.</a><br /><br />
+        </div>
+        <div id="iframepushers">
+          <iframe src="https://samkguerrero.github.io/data_vis_and_mapping_for_bwc" width="100%" height="800px" scrolling="yes" frameBorder="1" id="share-demo-iframe"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div id="sclovecraft">
+        <div>
+            <h2 class="scprojtitle" id="lovecraft">Interactive Web Mapping with JavaScript</h2>
+            <div class="scprojtext">
+              <p>
+              After completing <a class="link" href="http://arcg.is/1NP1MPs">The World of Lovecraft Tour</a> web map with 
+              <a class="link" href="https://www.arcgis.com/features/apps/index.html">ArcGIS Online</a>, I wanted to try to 
+              recreate it with open-source libraries. I felt my map was limited to the templates that ArcGIS Online provide. I 
+              recreated The World of Lovecraft Tour using the open-source JavaScript libary <a class="link" href="http://leafletjs.com/">Leaflet</a>. 
+              Here I was able to incorporate simple elements into my map that I felt were not accessible with ArcGIS Online templates. 
+              With Leaflet, I could manipulate the code and design the map with greater detail.
+              </p>
+            </div>
+            <div class="scposttextsnip">
+                <a class="link" href="https://samkguerrero.github.io/theworldoflovecraft/love.html">
+                  Check out the live example.</a><br />
+                <a class="link" href="https://github.com/samkguerrero/theworldoflovecraft.git">
+                  <i class="fab fa-github"></i> See the Code.</a><br /><br />
+            </div>
+            <div id="iframepushers">
+              <iframe src="https://samkguerrero.github.io/theworldoflovecraft/love.html" width="100%" height="800px" scrolling="no" frameBorder="0" id="share-demo-ifram"></iframe>
+            </div>
+          </div>
+    </div>
+
+    <div id="scaddzoom">
+      <div>
+        <h2 class="scprojtitle" id="addzoom">Building Plugins with Python Scripting</h2>
+        <div class="scprojtext">
+          <p>
+            In a previous job I was tasked with investigating the roads around specific points
+            at a detailed scale. The workflow consisted of importing 
+            <a class="link" href="ftp://ftp2.census.gov/geo/tiger/TIGER2015/">
+            Tiger 2015</a> road shapefiles into QGIS. Followed by zooming to the specified
+            coordinates to inquire about the nearby roads. Loading one at a time was not
+            practical, given that there were multiple coordinates to be searched.
+            I built this plugin using templates online to help streamline the process.
+          </p>
+        </div>
+        <div class="scposttextsnip">
+          <a class="link" href="https://www.youtube.com/watch?v=YeyQzjSMYS4">
+            Check out the live example.</a><br />
+          <a class="link" href="https://github.com/samkguerrero/addandzoom">
+            <i class="fab fa-github"></i> See the Code.</a><br /><br />
+        </div>
+        <table class="addzoomtbl" style="border:1px;">
+          <thead>
+            <tr>
+              <th>Previous Workflow</th>
+              <th>Workflow with the addandzoom Plugin</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="workflow">
+              <ul class="addzoomUL">
+                <li>Load in ESRI Street basemap tiles with python for spatial reference</li>
+                <li>Load in county polygons shapefile (<a href="https://www.dropbox.com/sh/ggo05ybm28huq19/AACGvyyLSJPlE8I-eWFTrk_2a?dl=0">TIGER2015_county_index</a>)</li>
+                <li>Symbolize with predefined template</li>
+                <li>Flip coordinate pair from Lat/Long to Long/Lat, and paste in
+                  the coordinates to zoom to the desired location</li>
+                <li>Use the identify tool on the county index polygon layer to find the code
+                  of the county which the point is located in</li>
+                <li>Search for the code among the names in the tiger roads directory</li>
+                <li>Add in the coresponding <a href="https://www.dropbox.com/sh/cgw2103jluj3obq/AAAr13-7WiDRdzm2jIRzkEDXa?dl=0">Tiger Roads</a> shapefile that coresponds to the county that the point is in</li>
+                <li> Label and style roads with predefined template for easier readability</li>
+              </ul>
+              <p class="nonlistworkflow"><br />
+                This process is not feasible given that the
+                points can fall in random counties that span
+                across the United States. Having all the roads
+                already imported world slow down the map. More so,
+                I might not even use half of the imported roads.</p>
+            </td>
+            <td class="workflow">
+              <ul class="addzoomUL">
+                <li>Start Python Console, Ctrl + Alt + P</li>
+                <li>Click addandzoom plugin button</li>
+                <li>Paste in coordinates, click OK</li>
+              </ul>
+              <p class="nonlistworkflowtitle"><br />How it works ?</p>
+              <ol>
+                <li>Adds county index layer to QGIS and symbolizes</li>
+                <li>Creates a point from the coordinates that were given to it</li>
+                <li>Selects by location, to find which county contains the created point</li>
+                <li>Takes the county code from the attributes of the selected county</li>
+                <li>Adds in the appropriate Tiger road shapefile using the
+                  identified county code from the previous step</li>
+                <li>It names the layer in the table of contents, labels the
+                  Tiger roads by road name, and symbolizses the roads.</li>
+                <li>Lastly it adds a basemap for spatial reference</li>
+              </ol>
+              <p class="nonlistworkflow">
+                The plugin streamlines several steps, it adds in the data
+                and zooms to the location with the push of a button. When
+                the tool is given a new pair of coordinates, it removes the
+                tiger roads from the previous use to reduce clutter. It also
+                takes the coordinate data in its natural order Lat/Long, rather
+                than having to flip the order so that QGIS can zoom to it.
+                This tool allowed me a more effecient workflow.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><iframe class="example" src="https://www.youtube.com/embed/cJJdalTgbvI" frameBorder="0" allowFullScreen ></iframe></td>
+            <td><iframe class="example" src="https://www.youtube.com/embed/YeyQzjSMYS4" frameBorder="0" allowFullScreen ></iframe></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="scmixology">
+      <div style=" padding: 30px;">
+        <h2 class="scprojtitle" id="mixology">Mixologylab.io React App</h2>
+        <div class="scprojtext">
+          <p>
+            This API has since been disconntinued, the screenshots below demonstrate the website's 
+            functionality. This application is what I help built as my capstone for the University of 
+            Washington Professional & Continuing Education course, 
+            <a class="link" href="https://www.pce.uw.edu/courses/modern-web-application">
+            JSCRIPT 300 B Sp 17: Modern Web Application</a>. Using the <a class="link" href="https://facebook.github.io/react/">
+            Reactjs</a> framework my group developed this application. By clicking through the buttons, users can filter the drink 
+            list by their preferences and return a drink list that reflects their taste. This application uses the 
+            <a class="link" href="https://addb.absolutdrinks.com/docs/">ABSOLUT API</a>. The JSON returned from the API once 
+            called was manipulated with features from the new ES6 features. The scafolding of the website was created using the 
+            <a class="link" href="https://github.com/facebookincubator/create-react-app">create-react-app</a> 
+            tool. I hope you give the site a visit at <a class="link" href="https://mixologylab.io/">mixology.io</a> 
+          </p>
+        </div>
+        <div class="scposttextsnip">
+            <a class="link" href="https://github.com/UWJS300/Capstone-Sung-Knopik-Guerrero">
+              <i class="fab fa-github"></i> See the Code.</a><br /><br />
+        </div>
+
+        <div class="drinkblockpairwrapper">
+          <div class="drinkblockpair">
+            <div>
+              <p class="drinkTable">1. Select Gin, Vodka, Tequila, Brandy,
+                Whisky, or Rum as your base.</p>
+            </div>
+            <div>
+              <div><img class="imgTable" src="./img/one.PNG" alt="Smiley face" /></div>
+            </div>
+          </div>
+          <div class="drinkblockpair">
+            <div>
+              <p class="drinkTable">2. Select a taste combination for your desired drink.</p>
+            </div>
+            <div>
+              <div><img class="imgTable" src="./img/two.PNG" alt="Smiley face" /></div>
+            </div>
+          </div>
+          <div class="drinkblockpair">
+            <div>
+              <p class="drinkTable">3. Sort by name or rating and choose a
+                drink you want to make.</p>
+            </div>
+            <div>
+              <div><img class="imgTable" src="./img/three.PNG" alt="Smiley face" /></div>
+            </div>
+          </div>
+          <div class="drinkblockpair">
+            <div>
+              <p class="drinkTable">4. View the drink ingredients and watch
+                the video on how to prepare the drink.</p>
+            </div>
+            <div>
+              <div><img class="imgTable" src="./img/four.PNG" alt="Smiley face" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="projects" style="padding: 0px 200px 0px 200px;">
+    <h5 style="color:#14425d; font-weight: bolder; margin: 50px" class="center">Projects</h5>
+    <p class="center">Click on the image of the project to see the code and a demo</p>
+    <br>
+    <div id="wheel">
+
+      <div class="blockrow">
+        <div class="projimg">
+            <a href="#showcase"><img id="voiceassistant" class="projtile" src="./img/voiceassistant.png"></a>
+        </div>
+        <div class="projdesc">
+            <a class="link" href="#showcase"><h5 id="voiceassistant" class="projtitle">Voice command web application with Django and Python</h5></a>
+            <div class="iconrow">
+                <img class="iconrowimg" src="./img/python.png"/>          
+                <img class="iconrowimg" src="./img/django.png"/>          
+                <img class="iconrowimg" src="./img/sqlite.png"/>
+                <img class="iconrowimg" src="./img/JavaScript.png"/>          
+                <img class="iconrowimg" src="./img/HTML.png"/>          
+                <img class="iconrowimg" src="./img/CSS.png"/>            
+              </div>
+        </div>
+      </div>
+
+      <div class="blockrow">
+        <div class="projimg">
+            <a href="#showcase"><img id="explodingninja" class="projtile" src="./img/explodingninja.png"></a>
+        </div>
+        <div class="projdesc">
+            <a class="link" href="#showcase"><h5 id="explodingninja" class="projtitle">Socket.io web adaptation of Exploding Kittens</h5></a>
+            <div class="iconrow">
+                <img class="iconrowimg" src="./img/JavaScript.png"/>          
+                <img class="iconrowimg" src="./img/HTML.png"/>          
+                <img class="iconrowimg" src="./img/CSS.png"/>          
+                <img class="iconrowimg" src="./img/jQuery.png"/>          
+                <img class="iconrowimg" src="./img/socket.png"/> 
+                <img class="iconrowimg" src="./img/nodejs.png"/> 
+                <img class="iconrowimg" src="./img/expressjs.png"/> 
+              </div>
+        </div>
+      </div>
+
+      <div class="blockrow">
+        <div class="projimg">
+            <a href="#showcase"><img id="leafletflickr" class="projtile" src="./img/leafletflickr.png"></a>
+        </div>
+        <div class="projdesc">
+            <a class="link" href="#showcase"><h5 id="leafletflickr" class="projtitle">Query Flickr's photos API by location with Leaflet</h5></a>
+            <div class="iconrow">
+              <img class="iconrowimg" src="./img/JavaScript.png"/>          
+              <img class="iconrowimg" src="./img/HTML.png"/>          
+              <img class="iconrowimg" src="./img/CSS.png"/>          
+              <img class="iconrowimg" src="./img/jQuery.png"/>          
+              <img class="iconrowimg" src="./img/ajax.png"/>          
+              <img class="iconrowimg" src="./img/bootstrap.png"/> 
+            </div>
+        </div>
+      </div>
+
+      <div class="blockrow">
+        <div class="projimg">
+            <a href="#showcase"><img id="dataviz" class="projtile" src="./img/dataviz.png"></a>
+        </div>
+        <div class="projdesc">
+            <a class="link" href="#showcase"><h5 id="dataviz" class="projtitle">Data visualization and mapping with ChartJs and Mapbox</h5></a>
+            <div class="iconrow">
+              <img class="iconrowimg" src="./img/JavaScript.png"/>          
+              <img class="iconrowimg" src="./img/HTML.png"/>          
+              <img class="iconrowimg" src="./img/CSS.png"/>          
+              <img class="iconrowimg" src="./img/jQuery.png"/>          
+              <img class="iconrowimg" src="./img/ajax.png"/>          
+            </div>
+        </div>
+      </div>
+
+      <div class="blockrow">
+        <div class="projimg">
+            <a href="#showcase"><img id="lovecraft" class="projtile" src="./img/lovecraft.jpg"></a>
+        </div>
+        <div class="projdesc">
+            <a class="link" href="#showcase"><h5 id="lovecraft" class="projtitle">Web mapping tour with Leaflet</h5></a>
+            <div class="iconrow">
+              <img class="iconrowimg" src="./img/JavaScript.png"/>          
+              <img class="iconrowimg" src="./img/HTML.png"/>          
+              <img class="iconrowimg" src="./img/CSS.png"/>          
+              <img class="iconrowimg" src="./img/jQuery.png"/>          
+            </div>
+        </div>
+      </div>
+
+      <div class="blockrow">
+        <div class="projimg">
+            <a href="#showcase"><img id="addzoom" class="projtile" src="./img/addzoom.jpg"></a>
+        </div>
+        <div class="projdesc">
+            <a class="link" href="#showcase"><h5 id="addzoom" class="projtitle">QGIS plugin with Python</h5></a>
+            <div class="iconrow">
+              <img class="iconrowimg" src="./img/python.png"/>          
+            </div>
+        </div>
+      </div>
+
+      <div class="blockrow">
+        <div class="projimg">
+            <a href="#showcase"><img id="mixology" class="projtile" src="./img/mixology.png"></a>
+        </div>
+        <div class="projdesc">
+            <a class="link" href="#showcase"><h5 id="mixology" class="projtitle">Cocktail assembly with Absolut Drink API and React</h5></a>
+            <div class="iconrow">
+              <img class="iconrowimg" src="./img/react.jpg"/>          
+              <img class="iconrowimg" src="./img/nodejs.png"/>          
+              <img class="iconrowimg" src="./img/expressjs.png"/>          
+              <img class="iconrowimg" src="./img/JavaScript.png"/>          
+              <img class="iconrowimg" src="./img/CSS.png"/>          
+              <img class="iconrowimg" src="./img/ajax.png"/>          
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer id="contact" style="background-color: #d3d3d3;" class="page-footer">
+    <h5 style="color:#14425d; font-weight: bolder; margin-bottom: 30px" class="center">Contact</h5>
+    <div class="container">
+      <div class="row">
+
+        <div class="col l4 s12">
+          <div class="contactwrapper">
+            <h5 style="color:#14425d; font-weight: bolder">Sam Guerrrero</h5>
+            <h5>(818) 857-7857</h5>
+            <h5>samkguerrero@gmail.com</h5>
+            <br>
+          </div>
+        </div>
+
+        <div class="col l4 s12"></div>
+
+        <div class="col l4 s12">
+          <div class="contactwrapper">
+            <div class="socialmedia">
+              <a href="https://github.com/samkguerrero">
+                <i class="fab fa-github"></i> /github</a>
+            </div>
+            <div class="socialmedia">
+              <a href="https://github.com/samkguerrero">
+                <i class="fab fa-linkedin"></i> /linkedin</a>
+            </div>
+            <div class="socialmedia">
+              <a href="https://www.dropbox.com/s/txamvtf8l6noucm/SamGuerreroSDEResume%20%281%29.pdf?dl=0">
+                <i class="fas fa-file"></i> /resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #d3d3d3;" class="footer-copyright"></div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="./Materialize_files/jquery-2.1.1.min.js"></script>
+  <script src="./Materialize_files/materialize.js"></script>
+  <script src="./Materialize_files/init.js"></script>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <div class="sidenav-overlay"></div>
+  <div class="drag-target"></div>
+</body>
+
+</html>
