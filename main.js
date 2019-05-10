@@ -7,6 +7,7 @@ $(document).ready(function () {
     $('#sclovecraft').hide();
     $('#scaddzoom').hide();
     $('#scmixology').hide();
+    $('#scpetadoption').hide();
 });
 
 $(document).ready(function () {
@@ -41,6 +42,10 @@ $(document).ready(function () {
         if (e.target.id === 'mixology') 
         {
             $('#scmixology').show();
+        }
+        if (e.target.id === 'petadoption') 
+        {
+            $('#scpetadoption').show();
         }
     })
 });
@@ -78,6 +83,10 @@ $(document).ready(function () {
         {
             $('#scmixology').show();
         }
+        if (e.target.id === 'petadoption') 
+        {
+            $('#scpetadoption').show();
+        }
     })
 });
 
@@ -92,5 +101,6 @@ $(document).ready(function () {
         $('#sclovecraft').hide();
         $('#scaddzoom').hide();
         $('#scmixology').hide();
+        $('#scpetadoption').hide();
     })
 });

@@ -306,3 +306,16 @@ a:hover {
 #showcase {
     padding-bottom: 20px;
 }
+
+.pettable {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.pettable img {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
