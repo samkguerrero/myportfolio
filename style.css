@@ -134,6 +134,7 @@ a.middle-indicator-text{
 
 .projimg img {
     max-width: 500px;
+    min-height: 300px;
 }
 
 @media screen and (max-width: 800px) {
@@ -318,4 +319,3 @@ a:hover {
     vertical-align: top;
     margin-bottom: 10px;
 }
-
