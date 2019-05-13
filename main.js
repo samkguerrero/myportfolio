@@ -8,6 +8,7 @@ $(document).ready(function () {
     $('#scaddzoom').hide();
     $('#scmixology').hide();
     $('#scpetadoption').hide();
+    $('#scactivityplanner').hide();
 });
 
 $(document).ready(function () {
@@ -46,6 +47,10 @@ $(document).ready(function () {
         if (e.target.id === 'petadoption') 
         {
             $('#scpetadoption').show();
+        }
+        if (e.target.id === 'activityplanner') 
+        {
+            $('#scactivityplanner').show();
         }
     })
 });
@@ -87,6 +92,10 @@ $(document).ready(function () {
         {
             $('#scpetadoption').show();
         }
+        if (e.target.id === 'activityplanner') 
+        {
+            $('#scactivityplanner').show();
+        }
     })
 });
 
@@ -102,5 +111,6 @@ $(document).ready(function () {
         $('#scaddzoom').hide();
         $('#scmixology').hide();
         $('#scpetadoption').hide();
+        $('#scactivityplanner').hide();
     })
 });

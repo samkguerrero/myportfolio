@@ -200,9 +200,10 @@ a.middle-indicator-text{
 }
 
 .voiceassistanttable img {
-    width: 30%;
     vertical-align: top;
     margin: 10px;
+    min-height: 450px;
+    max-width: 500px;
 }
 
 .link {
